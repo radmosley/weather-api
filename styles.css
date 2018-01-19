@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+
+.container {
+  margin: 0; }
+
+.top-wrapper {
+  background: black;
+  color: white;
+  width: 100%; }
+  .top-wrapper h1 {
+    font-size: 1.2em; }
+
+#temperature {
+  font-size: 3em; }
+
+/*# sourceMappingURL=styles.css.map */

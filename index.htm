@@ -3,23 +3,31 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-
-  <title>The HTML5 Herald</title>
+  <title>The HTML5 Ronnie</title>
   <meta name="description" content="The HTML5 Herald">
   <meta name="author" content="SitePoint">
-
   <link rel="stylesheet" href="styles.css?v=1.0">
-
 </head>
-
 <body>
-  <h1> your current weather</h1>
-  <div>
-  <p>Enter zipcode</p> <input id="location" type="text"><button>click here</button>
-  <h3> weather icon</h3><p id="weatherIcon"> </p>
-  <h3>the temprature is:</h3><p id="temperature"> </p>
-  <h3>Weather</h3><p id="weatherDescription"> </p>
-  <h3>Humidity</h3><p id="humidity"> </p>
+  <div class="container">
+    <div class="top-wrapper">
+    <h1>Friday</h1>
+      <div class="forecast">
+        <p id="temperature"></p>
+        <p><img src="#" id="weatherIcon"></p>
+        <p id="weatherDescription"></p>
+      </div>
+    </div>
+    <div class="bottom-wrapper">
+      <div class="location">
+        <h3>Portland, Oregon</h3>
+      </div>
+        <div>
+          <form type="input">Click here</form><button></button>
+        </div>
+      </div>
+    </div>
+  </div>
   <script src="jquery-3.2.1.min.js"></script>
   <script src="main.js"></script>
 </body>

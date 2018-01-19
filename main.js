@@ -8,7 +8,7 @@ function get_weather() {
             'units': 'imperial',
         },
         success: function (response){
-            var weatherIcon = 'http://openweathermap.org/img/w/'+ response.weather[0].icon +".png";
+            var weatherIcon = document.getElementById('weatherIcon').src ="http://openweathermap.org/img/w/"+response.weather[0].icon+".png";
             var temperature = response.main.temp;
             var weatherDescription = response.weather[0].description;
             var humidity = response.main.humidity;
